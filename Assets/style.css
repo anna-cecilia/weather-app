@@ -1,0 +1,77 @@
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 22px;
+    color: #585d5e;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for all cards */
+.card {
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #006497;
+    border-width: 1px;
+}
+
+/* Submit button */
+#submit-button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: navy;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+
+#submit-button:hover {
+    background-color: #ffcd00;
+    color: #021949;
+    border-radius: 3px;
+}
+
+#search-div, #weather-content {
+    width: 50%;
+}
+
+/* Changed border within table */
+.table td {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #a9a9a9;
+}
+
+/* Changed border of table header */
+.table thead th {
+    border-bottom: 1px solid #a9a9a9;
+    border-top: none;
+}
+
+/* Changed background color of the table header */
+.card-heading {
+    background-color: #006497;
+    border-style: none;
+}
+
+/* Changed font color of the table header */
+.card-title {
+    color: #ffffff;
+}
+
+
+/* Media queries for 990px and below */
+@media screen and (max-width: 990px) {
+    #search-div {
+        margin-bottom: 25px;
+        margin-right: -20px;
+    }
+}
