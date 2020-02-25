@@ -1,6 +1,5 @@
 body {
-    background-color: #111;
-    color: #efe;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 6px;
@@ -11,8 +10,9 @@ body {
     padding-top: 36px;
   }
   
-  p {
-    margin-bottom: 60px;
+  .location {
+      margin: 40px;
+      padding: 20px;
   }
   
   .icon {
@@ -32,33 +32,24 @@ body {
   }
   
   .temp {
-    display: inline-flex;
     font-size: 6em;
-    margin: -100px 0px -60px 0px;
     padding: 0px;
+    margin: 10px;
   }
   
   .units {
-    color: #333;
-    cursor: pointer;
-    display: inline-flex;
     font-size: .5em;
-    margin-top: 105px;
-    color: pink;
-  }
-  
-  form {
-    white-space: nowrap;
+    /* margin-top: 10px; */
+    color: black;
   }
   
   #formValueId {
     padding-top: 24px;
     border: none;
     padding-bottom: 8px;
-    border-bottom: 1px solid #efe;;
-    background-color: transparent;
-    color: #efe;
-    font-size: 1.6em;
+    border-bottom: 1px solid black;;
+    font-size: 1.3em;
+    text-align: center;
     font-weight: 300;
     width: 180px;
     letter-spacing: 6px;
@@ -72,14 +63,10 @@ body {
     margin-right: 0px;
     padding-right: 0px;
     border: none;
-    background-color: #111;
-    color: #fff;
+    color: black;
     cursor: pointer;
   }
   
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #333;
-  }
   
   input[type=text]:focus {
     outline: none;
