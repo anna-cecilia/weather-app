@@ -29,7 +29,7 @@ function generate(data) {
   $(".units").html("&deg;F");
 
   $(".location").html(data.name + ", " + data.sys.country);
-  //getIcon(data.weather[0].icon);
+  
   $(".num").html(fahrenheit);
   $(".other").html(data.weather[0].description);
 }

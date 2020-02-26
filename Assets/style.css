@@ -1,5 +1,5 @@
 body {
-    color: black;
+    background-color: #cbe7de;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 6px;
@@ -8,6 +8,7 @@ body {
   .container {
     text-align: center;
     padding-top: 36px;
+    background-color: white;
     
   }
   
