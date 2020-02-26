@@ -42,8 +42,18 @@ function error() {
 }
 
 //get weather from zipcode
-function zipcode(zip) {
-  var zipUrl =
+
+
+
+//run zipcode weather function on click or submit
+///$(document).ready(function() {
+  ///$("#zipButton").click(function() {
+    ///zipcode($("#formValueId").val());
+  ///});
+///});
+
+$("#zipButton").on("click", function(){
+    var zipUrl =
     "http://api.openweathermap.org/data/2.5/weather?zip=" +
     zip +
     ",us&appid=3e9afa5dc09c07a394a599812226d9c2";
@@ -51,11 +61,5 @@ function zipcode(zip) {
     .done(generate)
     .fail(error);
   $(".custom").show();
-}
 
-//run zipcode weather function on click or submit
-$(document).ready(function() {
-  $("#zipButton").click(function() {
-    zipcode($("#formValueId").val());
-  });
-});
+})
